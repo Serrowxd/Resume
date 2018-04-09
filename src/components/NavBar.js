@@ -32,7 +32,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="NavBarBackground">
         <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">Serrow</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
