@@ -5,6 +5,7 @@ import './App.css';
 // Imports
 import NavBar from './components/NavBar/NavBar';
 import TypistText from './components/Typist/TypistText';
+import Filler from './components/Filler';
 
 class App extends Component {
   render() {
@@ -12,6 +13,13 @@ class App extends Component {
       <div className="containerDiv">
         <NavBar />
         <TypistText />
+        <Filler />
+        <Filler />
+        <Filler />
+        <Filler />
+        <Filler />
+        <Filler />
+        <Filler />
       </div>
     );
   }
