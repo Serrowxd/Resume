@@ -51,7 +51,7 @@ class TypistText extends React.Component {
             </Col>
           </Row>
         </Container>
-        <p className="checkMe">Check out my Projects</p>
+        <p className="checkMe">Let's build something together</p>
       </Typist>
     );
   }
