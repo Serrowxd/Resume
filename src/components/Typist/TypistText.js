@@ -15,6 +15,7 @@ class TypistText extends React.Component {
   };
 
   render() {
+    const docs = '//github/com/serrowxd';
     return (
       <Typist>
         <div
@@ -51,7 +52,7 @@ class TypistText extends React.Component {
               </Col>
             </Row>
           </Container>
-          <p className="checkMe"> Check out my Projects </p>
+          <p className="checkMe">Check out my Projects</p>
         </div>
       </Typist>
     );

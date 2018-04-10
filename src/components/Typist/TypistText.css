@@ -4,10 +4,11 @@
   background-color: black;
   height: 870px;
   overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .type1 {
-  padding-top: 50px;
+  padding-top: 60px;
   font-size: 100px;
 }
 
@@ -21,12 +22,14 @@
 }
 
 .type3 {
-  text-align: left;
+  padding-top: 100px;
+  text-align: center;
   font-size: 50px;
 }
 
 .type4 {
-  text-align: left;
+  list-style-type: none;
+  text-align: center;
   font-size: 30px;
 }
 
@@ -34,6 +37,6 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 100px;
   font-size: 80px;
 }
