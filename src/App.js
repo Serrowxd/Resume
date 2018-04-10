@@ -26,6 +26,8 @@ class App extends Component {
         </div>
         <div>
           <Body />
+        </div>
+        <div>
           <Filler />
           <Filler />
           <Filler />
