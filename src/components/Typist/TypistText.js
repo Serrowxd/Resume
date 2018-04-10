@@ -23,11 +23,11 @@ class TypistText extends React.Component {
           startDelay={2000}
           onTypingDone={this.onHeaderTyped}
         >
-          <p className="type1">Serrow d-(OvO")z</p>
-          <p className="type2"> Skills ヾ(｡^ω^｡)ノ</p>
+          <p className="type1">Kevin Jolley</p>
+          {/* <p className="type2"> Skills</p> */}
           <Container className="typeRow">
             <Row>
-              <Col>
+              <Col sm="4">
                 <h2 className="type3"> Languages </h2>
                 <ul className="type4">
                   <li> JavaScript </li>
@@ -35,14 +35,14 @@ class TypistText extends React.Component {
                   <li> CSS/LESS/SCSS </li>
                 </ul>
               </Col>
-              <Col>
+              <Col sm="4">
                 <h2 className="type3"> Front-End </h2>
                 <ul className="type4">
                   <li> React.js </li>
                   <li> Bootstrap </li>
                 </ul>
               </Col>
-              <Col>
+              <Col sm="4">
                 <h2 className="type3"> Back-End </h2>
                 <ul className="type4">
                   <li> Node.js </li>
@@ -51,7 +51,7 @@ class TypistText extends React.Component {
               </Col>
             </Row>
           </Container>
-          <p className="checkMe"> Check me out! </p>
+          <p className="checkMe"> Check out my Projects </p>
         </div>
       </Typist>
     );
