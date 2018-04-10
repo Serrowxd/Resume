@@ -1,4 +1,27 @@
 .upperBody {
   background: lightgray;
-  height: 330px;
+  height: 850px;
+  max-width: 100%;
+}
+
+.upperBodyText {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.card {
+  margin-top: 80px;
+  margin-left: 75px;
+  width: 550px;
+}
+
+.cardRow {
+  max-width: 100%;
+}
+
+.upperButton {
+  display: block;
+  margin-top: 60px;
+  margin-left: 47%;
 }
