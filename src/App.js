@@ -8,6 +8,7 @@ import TypistText from './components/Typist/TypistText';
 import Filler from './components/Filler';
 import LowerHead from './components/LowerHeader/LowerHeader';
 import UpperBody from './components/UpperBody/UpperBody';
+import Body from './components/Body/Body';
 
 class App extends Component {
   render() {
@@ -22,9 +23,9 @@ class App extends Component {
         </div>
         <div className="upperBodyDiv">
           <UpperBody />
-          <Filler />
-          <Filler />
-          <Filler />
+        </div>
+        <div>
+          <Body />
           <Filler />
           <Filler />
           <Filler />

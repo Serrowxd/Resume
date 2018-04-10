@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 
 import './UpperBody.css';
 
-import BodyCard from '../UpperBodyCard/BodyCard';
+import BodyCard from './UpperBodyCard/BodyCard';
 
 class UpperBody extends Component {
   render() {
