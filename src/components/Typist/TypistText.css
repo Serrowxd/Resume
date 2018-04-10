@@ -1,7 +1,39 @@
-.TypistExample-header {
+.typistText-header {
   text-align: center;
-  font-size: 100px;
-  color: blueviolet;
+  color: gray;
   background-color: black;
-  height: 750px;
+  height: 870px;
+  overflow: hidden;
+}
+
+.type1 {
+  padding-top: 50px;
+  font-size: 100px;
+}
+
+.type2 {
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.typeRow {
+  width: 100%;
+}
+
+.type3 {
+  text-align: left;
+  font-size: 50px;
+}
+
+.type4 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.checkMe {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 80px;
 }
