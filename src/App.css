@@ -2,5 +2,11 @@
   display: block;
   margin: 0 auto;
   max-width: 1920px;
-  background-color: darkgray;
+  background-color: whitesmoke;
+}
+
+.bodyDiv {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
 }

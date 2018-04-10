@@ -6,7 +6,7 @@ body {
 
 #particles-js {
   background: no-repeat top center;
-  height: 900px;
+  height: 950px;
   position: absolute; /* fixed will cause it to cover the whole page, absolute forces it to stay in one spot */
   width: 100%;
   overflow: hidden;
