@@ -19,7 +19,7 @@ class TypistText extends React.Component {
     return (
       <Typist
         className="typistText-header"
-        avgTypingDelay={80}
+        avgTypingDelay={40}
         startDelay={2000}
         onTypingDone={this.onHeaderTyped}
       >
