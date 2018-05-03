@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div>
         <div className="containerDiv">
-          <NavBar />
+          {/* <NavBar /> */}
           <TypistText />
         </div>
         <div className="lowerHeadDiv">
